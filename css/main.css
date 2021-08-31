@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'bigillaregular';
-    src: url("/font/bigilla-webfont.woff2") format("woff2"), url("/font/bigilla-webfont.woff") format("woff");
+    src: url("../font/bigilla-webfont.woff2") format("woff2"), url("../font/bigilla-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'bigillabold';
-    src: url("/font/bigilla-bold-webfont.woff2") format("woff2"), url("/font/bigilla-bold-webfont.woff") format("woff");
+    src: url("../font/bigilla-bold-webfont.woff2") format("woff2"), url("../font/bigilla-bold-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'sk-modernistregular';
-    src: url("/font/sk-modernist-regular-webfont.woff2") format("woff2"), url("/font/sk-modernist-regular-webfont.woff") format("woff");
+    src: url("../font/sk-modernist-regular-webfont.woff2") format("woff2"), url("../font/sk-modernist-regular-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -198,8 +198,7 @@ body {
 .menu__item-img {
     pointer-events: none;
     position: absolute;
-    height: 50vh;
-    max-height: 400px;
+    height: 100%;
     opacity: 0;
     left: 100%;
     top: 50%;
